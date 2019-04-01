@@ -17,11 +17,11 @@ public class RERSExperiment {
      */
     public static void main(String [] args) throws IOException {
         // Load the System Under Learning (SUL)
-        SUL<String,String> sul = new ProcessSUL("/Users/sicco/Dropbox/STR_20162017/ReachabilityRERS2017/Problem10/a.out");
+        SUL<String,String> sul = new ProcessSUL("~/STRE/Assignment 03/simplestatemachine.out");
 
 
         // the input alphabet
-        Collection<String> inputAlphabet = ImmutableSet.of("1","2","3","4","5");
+        Collection<String> inputAlphabet = ImmutableSet.of("A","B","C","D");
 
         try {
             // runControlledExperiment for detailed statistics, runSimpleExperiment for just the result
